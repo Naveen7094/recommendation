@@ -27,3 +27,21 @@ ai-fertilizer-system/
 <script src="script.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - AI Fertilizer System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="home-container">
+    <h1>Welcome to AI Fertilizer Recommendation System</h1>
+
+    <a href="recommend.html">
+        <button>Go to Fertilizer Recommendation</button>
+    </a>
+</div>
+
+</body>
+</html>
