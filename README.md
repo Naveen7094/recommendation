@@ -45,3 +45,27 @@ ai-fertilizer-system/
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fertilizer Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Enter Soil Details</h2>
+
+    <form onsubmit="return recommendFertilizer()">
+        <input type="number" id="nitrogen" placeholder="Nitrogen (N)" required>
+        <input type="number" id="phosphorus" placeholder="Phosphorus (P)" required>
+        <input type="number" id="potassium" placeholder="Potassium (K)" required>
+        <button type="submit">Get Recommendation</button>
+    </form>
+
+    <h3 id="result"></h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
